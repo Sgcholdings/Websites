@@ -60,8 +60,8 @@ if (isset($_POST['submit'])) {
         <div class="row">
           <div class="col-md-6">
             <p class="mb-0">
-              <span class="mr-3"><strong class="text-white">Phone:</strong> <a href="tel://#"> 063 855 4689</a></span>
-              <span><strong class="text-white">Email:</strong> <a href="mail://#"> contact@abarth.co.za</a></span>
+              <span class="mr-3"><strong class="text-white">Phone:</strong> <a href="tel://#"> 073 990 1586</a></span>
+              <span><strong class="text-white">Email:</strong> <a href="mail://#"> contact@abarthappliances.co.za</a></span>
             </p>
           </div>
           <div class="col-md-6">
@@ -253,7 +253,39 @@ if (isset($_POST['submit'])) {
             <div class="unit-4 d-flex">
               <div class="unit-4-icon mr-4"><span class="text-primary icon-cogs"></span></div>
               <div>
-                <h3>Wachine Machine</h3>
+                <h3>Washing Machine</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4 d-flex">
+              <div class="unit-4-icon mr-4"><span class="text-primary icon-cogs"></span></div>
+              <div>
+                <h3>Tumble Dryer</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4 d-flex">
+              <div class="unit-4-icon mr-4"><span class="text-primary icon-cogs"></span></div>
+              <div>
+                <h3>Dishwasher</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4 d-flex">
+              <div class="unit-4-icon mr-4"><span class="text-primary icon-cogs"></span></div>
+              <div>
+                <h3>ice Machine</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4 d-flex">
+              <div class="unit-4-icon mr-4"><span class="text-primary icon-cogs"></span></div>
+              <div>
+                <h3>Coldrooms</h3>
               </div>
             </div>
           </div>
@@ -274,7 +306,7 @@ if (isset($_POST['submit'])) {
         <div class="row mb-5">
           
           <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
-            <img src="images/fridge.jpg" alt="Image" class="img-fluid rounded">
+            <img src="images/services.jpeg" alt="Image" class="img-fluid rounded">
           </div>
           <div class="col-md-6 order-md-1" data-aos="fade">
 
@@ -293,7 +325,8 @@ if (isset($_POST['submit'])) {
                   <div class="unit-4-icon mr-4 mb-3"><span class="text-secondary icon-cogs"></span></div>
                   <div>
                     <h3>Services</h3>
-                    <p>We are coming to you! We repair appliances at your house.</p>
+                    <p>We are coming to you! We repair appliances at your house. We work on a lot of brands like LG, Defy, Samsung etc.
+                    </p>
                     <p class="mb-0"><a href="#services-section">Learn More</a></p>
                   </div>
                 </div>
@@ -368,14 +401,15 @@ if (isset($_POST['submit'])) {
             
             <div class="p-4 mb-3 bg-white">
               <p class="mb-0 font-weight-bold">Address</p>
-              <p class="mb-4">Kempton park</p>
+              <p class="mb-4">11 Hermo Street Birchleigh North Kempton Park</p>
 
               <p class="mb-0 font-weight-bold">Phone</p>
-              <p class="mb-4"><a href="#">+27 63 855 4689</a></p>
               <p class="mb-4"><a href="#">+27 73 990 1586</a></p>
+              <p class="mb-4"><a href="#">+27 63 855 4689</a></p>
+              
 
               <p class="mb-0 font-weight-bold">Email Address</p>
-              <p class="mb-0"><a href="gmail.com">contact@abarth.co.za</a></p>
+              <p class="mb-0"><a href="gmail.com">contact@abarthappliances.co.za</a></p>
 
             </div>
             
