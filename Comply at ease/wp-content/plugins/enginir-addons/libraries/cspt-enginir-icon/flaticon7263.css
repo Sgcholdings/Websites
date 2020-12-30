@@ -1,0 +1,82 @@
+/*
+Flaticon icon font: Flaticon
+Creation date: 29/03/2019 06:33
+*/
+@font-face {
+  font-family: "Flaticon";
+  src: url("Flaticon.eot");
+  src: url("Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("Flaticon.woff2") format("woff2"),
+       url("Flaticon.woff") format("woff"),
+       url("Flaticon.ttf") format("truetype"),
+       url("Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.svg#Flaticon") format("svg");
+  }
+}
+[class^="cspt-enginir-icon-"]:before, [class*=" cspt-enginir-icon-"]:before,
+[class^="cspt-enginir-icon-"]:after, [class*=" cspt-enginir-icon-"]:after {   
+	font-family: Flaticon;
+	font-style: normal;
+}
+.cspt-enginir-icon-nuclear:before { content: "\f100"; }
+.cspt-enginir-icon-users:before { content: "\f101"; }
+.cspt-enginir-icon-calendar:before { content: "\f102"; }
+.cspt-enginir-icon-calendar-1:before { content: "\f103"; }
+.cspt-enginir-icon-headset:before { content: "\f104"; }
+.cspt-enginir-icon-24-hours:before { content: "\f105"; }
+.cspt-enginir-icon-email:before { content: "\f106"; }
+.cspt-enginir-icon-placeholder:before { content: "\f107"; }
+.cspt-enginir-icon-pin:before { content: "\f108"; }
+.cspt-enginir-icon-call:before { content: "\f109"; }
+.cspt-enginir-icon-smartphone:before { content: "\f10a"; }
+.cspt-enginir-icon-smartphone-1:before { content: "\f10b"; }
+.cspt-enginir-icon-placeholder-1:before { content: "\f10c"; }
+.cspt-enginir-icon-mail:before { content: "\f10d"; }
+.cspt-enginir-icon-newsletter:before { content: "\f10e"; }
+.cspt-enginir-icon-branch:before { content: "\f10f"; }
+.cspt-enginir-icon-gear:before { content: "\f110"; }
+.cspt-enginir-icon-ar:before { content: "\f111"; }
+.cspt-enginir-icon-crane:before { content: "\f112"; }
+.cspt-enginir-icon-car:before { content: "\f113"; }
+.cspt-enginir-icon-gear-1:before { content: "\f114"; }
+.cspt-enginir-icon-tower:before { content: "\f115"; }
+.cspt-enginir-icon-pollution:before { content: "\f116"; }
+.cspt-enginir-icon-hook:before { content: "\f117"; }
+.cspt-enginir-icon-architecture-and-city:before { content: "\f118"; }
+.cspt-enginir-icon-oil:before { content: "\f119"; }
+.cspt-enginir-icon-settings:before { content: "\f11a"; }
+.cspt-enginir-icon-skyline:before { content: "\f11b"; }
+.cspt-enginir-icon-helmet:before { content: "\f11c"; }
+.cspt-enginir-icon-engineer:before { content: "\f11d"; }
+.cspt-enginir-icon-cone:before { content: "\f11e"; }
+.cspt-enginir-icon-drill:before { content: "\f11f"; }
+.cspt-enginir-icon-roller:before { content: "\f120"; }
+.cspt-enginir-icon-sketch:before { content: "\f121"; }
+.cspt-enginir-icon-robotic-arm:before { content: "\f122"; }
+.cspt-enginir-icon-customer-service:before { content: "\f123"; }
+.cspt-enginir-icon-solar-panel:before { content: "\f124"; }
+.cspt-enginir-icon-worker:before { content: "\f125"; }
+.cspt-enginir-icon-cargo-ship:before { content: "\f126"; }
+.cspt-enginir-icon-boat:before { content: "\f127"; }
+.cspt-enginir-icon-engine:before { content: "\f128"; }
+.cspt-enginir-icon-plane:before { content: "\f129"; }
+.cspt-enginir-icon-blueprint:before { content: "\f12a"; }
+.cspt-enginir-icon-excavator:before { content: "\f12b"; }
+.cspt-enginir-icon-truck:before { content: "\f12c"; }
+.cspt-enginir-icon-industry:before { content: "\f12d"; }
+.cspt-enginir-icon-quality:before { content: "\f12e"; }
+.cspt-enginir-icon-trophy:before { content: "\f12f"; }
+.cspt-enginir-icon-plan:before { content: "\f130"; }
+.cspt-enginir-icon-wrench:before { content: "\f131"; }
+.cspt-enginir-icon-concrete-mixer:before { content: "\f132"; }
+.cspt-enginir-icon-dump-truck:before { content: "\f133"; }
+.cspt-enginir-icon-calendar-2:before { content: "\f134"; }
+.cspt-enginir-icon-pdf:before { content: "\f135"; }
+.cspt-enginir-icon-doc:before { content: "\f136"; }
+.cspt-enginir-icon-news:before { content: "\f137"; }
