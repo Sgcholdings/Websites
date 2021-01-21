@@ -220,7 +220,6 @@
 										company. This I can attest due to the numerous projects they have done at our shopping complex car
 										parks ranging from pothole repairs to speed humps construction since 2016.</p>
 									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
 										<div class="pl-3">
 											<p class="name">Mahomad Seedak</p>
 											<span class="position"> Facilities Manager Oriental Plaza fordsburg Johannesburg. </span>
@@ -307,8 +306,6 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/scrollax.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
 
 </body>

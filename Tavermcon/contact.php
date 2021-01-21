@@ -2,7 +2,7 @@
 if (isset($_POST['submit'])) {
 	$name = $_POST['name'];
 	$subject = $_POST['subject'];
-	$mailFrom = $_POST['email'];
+	$mailFrom = $_POST['mail'];
 	$message = $_POST['message'];
 
 	$mailTo = "marlven@tavermcon.co.za";
@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
 	<?php include('includes/navbar.php'); ?>
 	<!-- END nav -->
 
-	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/our team 2.jpg');" data-stellar-background-ratio="0.5">
+	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/background2.jpg');" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text align-items-end">
@@ -37,7 +37,7 @@ if (isset($_POST['submit'])) {
 		</div>
 	</section>
 
-	<section class="ftco-section">
+<section class="ftco-section">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-12">
@@ -54,32 +54,31 @@ if (isset($_POST['submit'])) {
 										<div class="row">
 											<div class="col-md-6">
 												<div class="form-group">
-													<label class="label" for="name">Full Name</label>
-													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+													<label class="label" for="name">Name</label>
+													<input type="text" class="form-control" name="name" placeholder="Full Name">
 												</div>
 											</div>
 											<div class="col-md-6">
 												<div class="form-group">
 													<label class="label" for="email">Email Address</label>
-													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+													<input type="email" class="form-control" name="mail" placeholder=" Your e-mail">
 												</div>
 											</div>
 											<div class="col-md-12">
 												<div class="form-group">
 													<label class="label" for="subject">Subject</label>
-													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+													<input type="text" class="form-control" name="subject" placeholder="Subject">
 												</div>
 											</div>
 											<div class="col-md-12">
 												<div class="form-group">
 													<label class="label" for="#">Message</label>
-													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+													<textarea name="message" class="form-control" placeholder=" Your Message"></textarea>
 												</div>
 											</div>
 											<div class="col-md-12">
 												<div class="form-group">
-													<input type="submit" value="Send Message" class="btn btn-primary">
-													<div class="submitting"></div>
+													<button type="submit" name="submit" class="btn btn-primary">SEND MESSAGE</button>
 												</div>
 											</div>
 										</div>
@@ -87,9 +86,6 @@ if (isset($_POST['submit'])) {
 								</div>
 							</div>
 							<div class="col-md-5 d-flex align-items-stretch">
-									<?php
-									 require ('map.php');
-									?>
 							</div>
 						</div>
 						<div class="row">
@@ -109,7 +105,7 @@ if (isset($_POST['submit'])) {
 										<span class="fa fa-phone"></span>
 									</div>
 									<div class="text">
-										<p><span>Phone:</span> <a href="tel://1234567920">+27 84 737 1056</a></p>
+										<p><span>Phone:</span> <a href="tel:+27 84 737 1056">+27 84 737 1056</a></p>
 									</div>
 								</div>
 							</div>
@@ -119,7 +115,7 @@ if (isset($_POST['submit'])) {
 										<span class="fa fa-paper-plane"></span>
 									</div>
 									<div class="text">
-										<p><span>Email:</span> <a href="mailto:info@yoursite.com">marlven@tavermcon.co.za</a></p>
+										<p><span>Email:</span> <a href="mailto:marlven@tavermcon.co.za">marlven@tavermcon.co.za</a></p>
 									</div>
 								</div>
 							</div>
@@ -140,9 +136,7 @@ if (isset($_POST['submit'])) {
 		</div>
 	</section>
 
-	<?php include('includes/footer.php'); ?>
-
-
+    <?php include ('includes/footer.php'); ?>
 	<!-- loader -->
 	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
 			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
@@ -160,8 +154,6 @@ if (isset($_POST['submit'])) {
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/scrollax.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
 
 </body>

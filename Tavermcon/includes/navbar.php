@@ -1,8 +1,9 @@
 <div class="container pt-5">
   <div class="row justify-content-between">
     <div class="col">
-      <a class="navbar-brand" href="index.html">Taverm<span>con.</span></a>
+      <a class="navbar-brand" href="index.php">Taverm<span>con.</span></a>
     </div>
+     <?php include ('map.php'); ?>
     <div class="col d-flex justify-content-end">
       <div class="social-media">
         <p class="mb-0 d-flex">

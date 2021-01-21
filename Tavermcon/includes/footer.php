@@ -1,19 +1,3 @@
- <?php
-    if (isset($_POST['submit'])) {
-        $name = $_POST['name'];
-        $subject = $_POST['subject'];
-        $mailFrom = $_POST['email'];
-        $message = $_POST['message'];
-
-        $mailTo = "marlven@tavermcon.co.za";
-        $headers = "From: " . $mailFrom;
-        $txt = "You have received an email from " . $name . ".\n\n" . $message;
-
-        mail($mailTo, $subject, $txt, $headers);
-
-        header("Location: contact.php");
-    }
-    ?>
 
  <footer class="footer">
      <div class="container-fluid px-lg-5">
@@ -70,28 +54,28 @@
                          <p class="copyright">
                              Copyright &copy;<script>
                                  document.write(new Date().getFullYear());
-                             </script> Tavermcon Pty Ltd All rights reserved.<i class="ion-ios-heart" aria-hidden="true"></i>
+                             </script> Tavermcon Pty Ltd
                          </p>
                      </div>
                  </div>
              </div>
              <div class="col-md-3 py-md-5 py-4 aside-stretch-right pl-lg-5">
                  <h2 class="footer-heading">Request A Quote</h2>
-                 <form action="#" class="contact-form">
+                 <form action="contact.php" method="POST" class="contact-form">
                      <div class="form-group">
                          <input type="text" name="name" class="form-control" placeholder="Your Name">
                      </div>
                      <div class="form-group">
-                         <input type="text"  name="email" class="form-control" placeholder="Your Email">
+                         <input type="text"  name="mail" class="form-control" placeholder="Your Email">
                      </div>
                      <div class="form-group">
                          <input type="text"  name="subject" class="form-control" placeholder="Subject">
                      </div>
                      <div class="form-group">
-                         <textarea name="message"  cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+                         <textarea name="message"   class="form-control" placeholder="Message"></textarea>
                      </div>
                      <div class="form-group">
-                         <button type="submit" class="form-control submit px-3">Send</button>
+                         <button type="submit" name="submit" class="form-control submit px-3">Send</button>
                      </div>
                  </form>
              </div>

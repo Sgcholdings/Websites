@@ -1,0 +1,10 @@
+[16-Mar-2020 08:39:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imvvsmcb/public_html/index.php:1) in /home/imvvsmcb/public_html/includes/footer.php on line 14
+[16-Mar-2020 18:56:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imvvsmcb/public_html/contact.php:17) in /home/imvvsmcb/public_html/includes/footer.php on line 14
+[16-Mar-2020 18:56:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imvvsmcb/public_html/contact.php:17) in /home/imvvsmcb/public_html/includes/footer.php on line 14
+[16-Mar-2020 18:59:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imvvsmcb/public_html/contact.php:17) in /home/imvvsmcb/public_html/includes/footer.php on line 14
+[16-Mar-2020 19:03:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/imvvsmcb/public_html/contact.php:17) in /home/imvvsmcb/public_html/includes/footer.php on line 14
+[16-Mar-2020 19:29:39 UTC] PHP Warning:  include(../map.php): failed to open stream: No such file or directory in /home/imvvsmcb/public_html/includes/navbar.php on line 9
+[16-Mar-2020 19:29:39 UTC] PHP Warning:  include(../map.php): failed to open stream: No such file or directory in /home/imvvsmcb/public_html/includes/navbar.php on line 9
+[16-Mar-2020 19:29:39 UTC] PHP Warning:  include(): Failed opening '../map.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/imvvsmcb/public_html/includes/navbar.php on line 9
+[16-Mar-2020 19:36:52 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/imvvsmcb/public_html/contact.php on line 89
+[16-Mar-2020 19:36:56 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/imvvsmcb/public_html/contact.php on line 89
